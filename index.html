@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Quiz Master</h1>
+            <p>Test your knowledge and challenge yourself!</p>
+        </div>
+
+        <div id="quiz-box">
+
+            <div class="quiz-info">
+                <span id="question-number">Question 1 of 5</span>
+                <span id="progress-text">0% Completed</span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+            <h2 id="question">Question text</h2>
+
+            <div id="options"></div>
+
+            <p id="feedback"></p>
+
+            <button id="next-btn" disabled>Next Question →</button>
+
+        </div>
+
+        <div id="result-box">
+
+            <div class="result-icon">🏆</div>
+
+            <h2>Quiz Completed!</h2>
+
+            <p>Your final score is</p>
+
+            <h1 id="score">0 / 5</h1>
+
+            <p id="percentage"></p>
+
+            <p id="message"></p>
+
+            <button id="restart-btn">↻ Play Again</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
